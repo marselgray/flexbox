@@ -6,6 +6,7 @@
   <meta http-equix='X-UA-Compatible' content='ie-edge'>
   <title>FlexBox</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
   <meta name="FlexBox">
 </head>
 
@@ -14,8 +15,56 @@
     <h1> My Good Friend FlexBox </h1>
   </header>
 
-  
+<h2> Intro </h2>
+<p>The Flexible Box Module, usually referred to as flexbox, was designed as a one-dimensional layout model, and as a method that could offer space distribution between items in an interface and powerful alignment capabilities. 
+<br><br>
+Understanding FlexBox is important to the overall conversation about grids and layouts because it is powerful and dramatic tool not just for moderan webpages but also mobile-friendly webpages. 
+<br><br>
+FlexBox centers around two main pieces of terminology: the container and its children known as items. The properites for each are different. This repo attempts to break the terminology down into friendly lessons and code to help in your understanding of my good friend FlexBox. 
+</p>
 
+
+<h2> Properties of the Parent known as the Container </h2>
+<h4>Property: Display </h4>
+<p>This defines a flex container. Inline or block depending on the given value. It enables a flex context for all its direct children.
+The example below sets display at flex.</p>
+
+<ul class="container1">
+  <li class="item1">1</li>
+  <li class="item1">2</li>
+  <li class="item1">3</li>
+  <li class="item1">4</li>
+</ul>
+
+
+<h4>Property: Flex-Direction </h4>
+<p>This establishes the main-axis, thus defining the direction flex items are placed in the flex container. Options include row, row-reverse, column, column-reverse.
+The example below sets flex-direction at column-reverse.</p>
+
+<ul class="container2">
+  <li class="item2">1</li>
+  <li class="item2">2</li>
+  <li class="item2">3</li>
+  <li class="item2">4</li>
+  
+</ul>
+
+
+<h4>Property: Flex-Wrap </h4>
+<p>Flex items will all try to fit onto one line. This is a default setting. You can alter this and allow
+the items to wrap as needed with flex-wrap. There are two options in addtion to the default nowrap. They
+are wrap and wrap-reverse</p>
+
+<ul class="container3">
+  <li class="item3">1</li>
+  <li class="item3">2</li>
+  <li class="item3">3</li>
+  <li class="item3">4</li>
+  <li class="item3">5</li>
+  <li class="item3">6</li>
+  <li class="item3">7</li>
+  <li class="item3">8</li>
+</ul>
 
 </body>
 </html>

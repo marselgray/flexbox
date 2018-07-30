@@ -9,6 +9,3 @@ FlexBox centers around two main pieces of terminology: the container and its chi
 
 
 ![](images/flex-container.png)
-
-
-![](images/flex-items.png)
